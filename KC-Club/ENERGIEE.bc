@@ -52,8 +52,8 @@
 3030 PRINT" ---------"
 3040 PRINT" -1- Explanation and example parameters"
 3050 PRINT:PRINT" -2- Entering the parameters"
-3060 PRINT:PRINT" -3- Recalculation with new param."
-3070 PRINT"     Power consumption (kWh/Year)":PRINT
+3060 PRINT:PRINT" -3- Recalculation with new"
+3070 PRINT"     energy consumption (kWh/Year)":PRINT
 3080 PRINT" -4- Graphical representation":PRINT
 3090 PRINT" -5- Finish calculation"
 3100 GOSUB210
@@ -110,7 +110,7 @@
 5060 GOSUB650
 5070 HO=.45:VE=.25:SR$="Energy costs/Year"
 5080 GOSUB650
-5090 SR$=" ELECTRICAL ENERGY COST CALCULATION"
+5090 SR$="ELECTRICAL ENERGY COST CALCULATION"
 5100 GOSUB210:GOTO3000
 6000 REM ERKLAERUNG
 6010 HO=4:VE=2:GOSUB110:SR$="EXPLANATION":GOSUB150
